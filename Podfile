@@ -5,6 +5,7 @@ workspace 'MultiProjects.xcworkspace'
 use_frameworks!
 
 pod 'Bolts'
+pod 'AFNetworking'
 
 target :MultiProjects do
   project 'MultiProjects/MultiProjects.xcodeproj'
@@ -13,6 +14,5 @@ end
 
 target :MultiProjectsLib do
   project 'MultiProjectsLib/MultiProjectsLib.xcodeproj'
-  pod 'AFNetworking'
   
 end
